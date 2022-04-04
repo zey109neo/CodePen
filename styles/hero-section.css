@@ -1,0 +1,102 @@
+/* Styles for Hero Section */
+.hero-section {
+    height: 1130px;
+    background-color: #161c21d6;
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.75em;
+
+    box-shadow: inset -450px -30px 350px 20px rgba(0, 0, 0, 0.58);
+
+    font-family: 'Lato', sans-serif;
+}
+
+.right-image-column {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    font-family: 'Lato', sans-serif;
+}
+
+.right-image img {
+    width: 1200px;
+    height: 100%;
+}
+
+.white-text {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.blue-text {
+    font-family: 'Lato', sans-serif;
+    color: rgb(146, 159, 255);
+}
+
+.right-image-column-textbox {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.hero-section>.columns-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-section>.columns-wrapper>.left-hero-column {
+    font-family: 'Lato', sans-serif;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: flex-start;
+
+    border: none;
+    transition: 1s;
+    margin-left: 100px;
+}
+
+.hero-section>.columns-wrapper>.left-hero-column>.section-1 {
+
+    text-align: left;
+    color: white;
+    font-size: 4rem;
+}
+
+.hero-section>.columns-wrapper>.left-hero-column>.section-2 {
+
+    text-align: left;
+    color: white;
+    font-size: 3rem;
+
+}
+
+.hero-section>.columns-wrapper>.left-hero-column>.section-3 {
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+}
+
+.hero-section>.columns-wrapper>.left-hero-column>.section-3>.box-one {
+    background-color: mediumseagreen;
+    border-radius: 4%;
+    padding: 15px 20px;
+    margin-right: 10px;
+}
+
+.hero-section>.columns-wrapper>.left-hero-column>.section-3>.box-two {
+    background-color: black;
+    color: white;
+    border-radius: 4%;
+    padding: 15px 20px;
+}
